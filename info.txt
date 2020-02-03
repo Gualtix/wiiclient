@@ -1,0 +1,2 @@
+ng build --base-href https://gualtix.github.io/wiiclient/
+sudo ngh --no-silent
