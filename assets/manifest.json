@@ -13,7 +13,7 @@
   ],
   "background_color": "#EEE",
   "theme_color": "#1565c0",
-  "start_url": "https://gualtix.github.io/#/cotizar",
+  "start_url": "https://gualtix.github.io/wiiclient/login",
   "display": "standalone",
   "orientation": "any"
 }
