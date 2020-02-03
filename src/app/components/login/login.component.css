@@ -1,0 +1,80 @@
+
+input[type=checkbox]
+{
+  transform: scale(2);
+  padding: 10px;
+  margin: auto;
+
+}
+
+/*
+.checkboxtext
+{
+
+  font-size: 110%;
+  display: inline;
+}
+*/
+
+.mycheck{
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+
+    padding-left: 5px;
+    background-color: white;
+    width: 105px;
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    font-weight: bold;
+    color: rgb(14, 14, 66);
+    height: 36px;
+
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+.myspan{
+    background-color: rgb(252, 152, 30);
+    width: 95px;
+    font-weight: bold;
+    border-color: rgb(173, 95, 0);
+    color: rgb(14, 14, 66);
+}
+
+#logback{
+    background-color: seashell;
+}
+
+#logimg{
+    background-image: url(../../../assets/met.jpg);
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 175px;
+
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    border-bottom-width: 0px;
+}
+
+#logform{
+    margin-top: 0px;
+    
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 260px;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    border-top-width: 0px;
+
+    background-color: rgb(231, 229, 229);
+}

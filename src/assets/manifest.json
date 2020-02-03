@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "short_name": "MaderApp",
+  "name": "MaderApp",
+  "description": "Point of Sale",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://cdn1.iconfinder.com/data/icons/cube-one/64/Wood-512.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#EEE",
+  "theme_color": "#1565c0",
+  "start_url": "https://gualtix.github.io/#/cotizar",
+  "display": "standalone",
+  "orientation": "any"
+}
