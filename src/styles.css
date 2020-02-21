@@ -1,30 +1,200 @@
+/* M A R G I N */
+/* P A D D I N G*/
+/* L A Y O U T */
+/* S I Z E */
+/* F O N T */
+/* B O R D E R */
+/* B A C K G R O U N D*/
+
+/* ********************************************************************************** */
+/* ********************************************************************************** */
+
 .gblconti{
 
-    margin:0;
-    position: absolute;
-
-    background-color: rgb(233, 56, 56);
-    width: 100%;
-    height: 100vh;
-
+    /* M A R G I N */
+    margin: 0px;
+    /* P A D D I N G*/
     padding-left: 5px;
     padding-right: 5px;
+    /* L A Y O U T */
+    position: absolute;
+    /* S I Z E */
+    width: 100%;
+    height: 100vh;
+    /* F O N T */
+    /* B O R D E R */
+    /* B A C K G R O U N D*/
+    background-color: rgb(233, 56, 56);
+
+    /* ********************************************************************************** */
+    /* ********************************************************************************** */    
 }
 
 .conti{
 
+    /* M A R G I N */
     margin:auto;
-    background-color: cornflowerblue;
-    border-color: rgb(208, 127, 243);
-    border-radius: 7px;
-    border-style: solid;
+    /* P A D D I N G*/
+    padding: 5px;
+    /* L A Y O U T */
+    /* S I Z E */
     height: 25px;
-
     max-width: 720px;
     min-width: 310px;
-
-    margin-top: 5px;
-
+    /* F O N T */
+    /* B O R D E R */
+    border-radius: 7px;
+    border-style: solid;
     border-color: silver;
     border-width: 1px;
+    /* B A C K G R O U N D*/
+    background-color: cornflowerblue;
+
+    /* ********************************************************************************** */
+    /* ********************************************************************************** */
 }
+
+
+.left_label{
+
+    /* L A Y O U T */
+
+    /* S I Z E */
+    height: 28px;
+    width: 105px;
+
+    /* P A D D I N G */
+    padding-left: 5px;
+
+    /* F O N T */
+    font-weight: bold;
+    color: rgb(14, 14, 66);
+    text-align: right;
+
+    /* B O R D E R */
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-style: solid;
+    border-color: rgb(173, 95, 0);
+    border-width: 1px;
+
+    /* ********************************************************************************** */
+    background-color: rgb(252, 152, 30);
+    padding-right: 5px;
+    
+}
+
+.right_input{
+
+    /* L A Y O U T */
+
+
+    /* S I Z E */
+    width: 100%;
+    height: 29px;
+
+
+    /* P A D D I N G */
+    padding-left: 5px;
+
+    /* F O N T */
+
+    /* B O R D E R */
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+
+    /* ********************************************************************************** */
+    background-color: white;
+    /* ********************************************************************************** */
+}
+
+.input_element{
+
+    /* M A R G I N  */
+    margin:auto;
+    margin-top: 5px;
+    /* P A D D I N G */
+    /* L A Y O U T */
+    display: flex;
+
+    /* S I Z E */
+    height: 33px;
+    width: 100%;
+    max-width: 720px;
+    /*min-width: 310px;*/
+
+    /* F O N T */
+    /* B O R D E R */
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(243, 127, 172);
+    border-style: solid;
+
+    /* ********************************************************************************** */
+    background-color: rgb(132, 237, 100);
+    /* ********************************************************************************** */
+}
+
+.input_row{
+
+    /* M A R G I N  */
+    margin:auto;
+    margin-top: 5px;
+    /* P A D D I N G */
+    /* L A Y O U T */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    /*grid-template-rows: 25px;*/
+    /*grid-gap: 15px;*/
+    /* S I Z E */
+    height: 40px;
+    /* F O N T */
+    /* B O R D E R */
+    border-width: 1px;
+    border-radius: 5px;
+    
+
+
+    /* ********************************************************************************** */
+    background-color: crimson;
+    /* ********************************************************************************** */
+}
+
+.full_wide{
+    /* M A R G I N */
+    /* P A D D I N G*/
+    /* L A Y O U T */
+    /* S I Z E */
+    width: 100%;
+    /* F O N T */
+    text-align: center;
+    /* B O R D E R */
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /* B A C K G R O U N D*/
+}
+
+.useicon{
+
+    /* S I Z E */
+    min-width: 35px;
+    max-width: 35px;
+    /* F O N T */
+    text-align: center;
+
+    /* ********************************************************************************** */
+    /* ********************************************************************************** */
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "holamundo",
+            "dialect": "MySQL",
+            "name": "Practi",
+            "password": "Aspx1234+",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}

@@ -10,6 +10,8 @@ import { InfoComponent } from './components/info/info.component';
 import { ReportsComponent } from './components/reports/reports.component';
 import * as $ from 'jquery';
 import { ExitComponent } from './components/exit/exit.component';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
+import { EnvioComponent } from './components/envio/envio.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ExitComponent } from './components/exit/exit.component';
     CotizadorComponent,
     InfoComponent,
     ReportsComponent,
-    ExitComponent
+    ExitComponent,
+    CalculadoraComponent,
+    EnvioComponent
   ],
   imports: [
     BrowserModule,
